@@ -1,0 +1,100 @@
+[2025-10-26T02:21:27.389Z] [ERROR] [247Mode] Error connecting 24/7 for guild 1362377178469109780:
+Stack trace: TypeError: player.set is not a function
+    at connect247Guild (file:///home/container/src/events/discord/ready.js?t=1761445274085:215:12)
+    at Timeout._onTimeout (file:///home/container/src/events/discord/ready.js?t=1761445274085:120:19)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+[2025-10-27T12:29:55.087Z] [ERROR] [Process] Unhandled Rejection
+Stack trace: DiscordAPIError[50013]: Missing Permissions
+    at handleErrors (file:///home/container/node_modules/@discordjs/rest/dist/index.mjs:721:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SequentialHandler.runRequest (file:///home/container/node_modules/@discordjs/rest/dist/index.mjs:1122:23)
+    at async SequentialHandler.queueRequest (file:///home/container/node_modules/@discordjs/rest/dist/index.mjs:953:14)
+    at async _REST.request (file:///home/container/node_modules/@discordjs/rest/dist/index.mjs:1266:22)
+    at async TextChannel.send (/home/container/node_modules/discord.js/src/structures/interfaces/TextBasedChannel.js:195:15)
+[2025-10-27T12:29:58.587Z] [ERROR] [HelpCommand] Error in prefix command: Missing Permissions
+Stack trace: DiscordAPIError[50013]: Missing Permissions
+    at handleErrors (file:///home/container/node_modules/@discordjs/rest/dist/index.mjs:721:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SequentialHandler.runRequest (file:///home/container/node_modules/@discordjs/rest/dist/index.mjs:1122:23)
+    at async SequentialHandler.queueRequest (file:///home/container/node_modules/@discordjs/rest/dist/index.mjs:953:14)
+    at async _REST.request (file:///home/container/node_modules/@discordjs/rest/dist/index.mjs:1266:22)
+    at async TextChannel.send (/home/container/node_modules/discord.js/src/structures/interfaces/TextBasedChannel.js:195:15)
+    at async HelpCommand.execute (file:///home/container/src/commands/info/help.js?v=1761445274741:240:27)
+    at async Object.execute (file:///home/container/src/events/discord/guild/Prefixcmd.js?t=1761445273914:462:7)
+[2025-10-29T10:51:04.113Z] [ERROR] [BotInfoCommand] Error in prefix command: Missing Permissions
+Stack trace: DiscordAPIError[50013]: Missing Permissions
+    at handleErrors (file:///home/container/node_modules/@discordjs/rest/dist/index.mjs:721:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SequentialHandler.runRequest (file:///home/container/node_modules/@discordjs/rest/dist/index.mjs:1122:23)
+    at async SequentialHandler.queueRequest (file:///home/container/node_modules/@discordjs/rest/dist/index.mjs:953:14)
+    at async _REST.request (file:///home/container/node_modules/@discordjs/rest/dist/index.mjs:1266:22)
+    at async TextChannel.send (/home/container/node_modules/discord.js/src/structures/interfaces/TextBasedChannel.js:195:15)
+    at async BotInfoCommand.execute (file:///home/container/src/commands/info/botinfo.js?v=1761445274741:38:28)
+    at async Object.execute (file:///home/container/src/events/discord/guild/Prefixcmd.js?t=1761445273914:462:7)
+[2025-10-29T10:51:16.767Z] [ERROR] [HelpCommand] Error in prefix command: Missing Permissions
+Stack trace: DiscordAPIError[50013]: Missing Permissions
+    at handleErrors (file:///home/container/node_modules/@discordjs/rest/dist/index.mjs:721:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SequentialHandler.runRequest (file:///home/container/node_modules/@discordjs/rest/dist/index.mjs:1122:23)
+    at async SequentialHandler.queueRequest (file:///home/container/node_modules/@discordjs/rest/dist/index.mjs:953:14)
+    at async _REST.request (file:///home/container/node_modules/@discordjs/rest/dist/index.mjs:1266:22)
+    at async TextChannel.send (/home/container/node_modules/discord.js/src/structures/interfaces/TextBasedChannel.js:195:15)
+    at async HelpCommand.execute (file:///home/container/src/commands/info/help.js?v=1761445274741:240:27)
+    at async Object.execute (file:///home/container/src/events/discord/guild/Prefixcmd.js?t=1761445273914:462:7)
+[2025-10-29T10:51:20.990Z] [ERROR] [Process] Unhandled Rejection
+Stack trace: DiscordAPIError[50013]: Missing Permissions
+    at handleErrors (file:///home/container/node_modules/@discordjs/rest/dist/index.mjs:721:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SequentialHandler.runRequest (file:///home/container/node_modules/@discordjs/rest/dist/index.mjs:1122:23)
+    at async SequentialHandler.queueRequest (file:///home/container/node_modules/@discordjs/rest/dist/index.mjs:953:14)
+    at async _REST.request (file:///home/container/node_modules/@discordjs/rest/dist/index.mjs:1266:22)
+    at async TextChannel.send (/home/container/node_modules/discord.js/src/structures/interfaces/TextBasedChannel.js:195:15)
+[2025-10-29T10:53:45.232Z] [ERROR] [Process] Unhandled Rejection
+Stack trace: DiscordAPIError[50013]: Missing Permissions
+    at handleErrors (file:///home/container/node_modules/@discordjs/rest/dist/index.mjs:721:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SequentialHandler.runRequest (file:///home/container/node_modules/@discordjs/rest/dist/index.mjs:1122:23)
+    at async SequentialHandler.queueRequest (file:///home/container/node_modules/@discordjs/rest/dist/index.mjs:953:14)
+    at async _REST.request (file:///home/container/node_modules/@discordjs/rest/dist/index.mjs:1266:22)
+    at async TextChannel.send (/home/container/node_modules/discord.js/src/structures/interfaces/TextBasedChannel.js:195:15)
+[2025-11-01T22:31:44.285Z] [ERROR] [EventUtils] Failed to send player message:
+Stack trace: DiscordAPIError[50013]: Missing Permissions
+    at handleErrors (file:///home/container/node_modules/@discordjs/rest/dist/index.mjs:721:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SequentialHandler.runRequest (file:///home/container/node_modules/@discordjs/rest/dist/index.mjs:1122:23)
+    at async SequentialHandler.queueRequest (file:///home/container/node_modules/@discordjs/rest/dist/index.mjs:953:14)
+    at async _REST.request (file:///home/container/node_modules/@discordjs/rest/dist/index.mjs:1266:22)
+    at async TextChannel.send (/home/container/node_modules/discord.js/src/structures/interfaces/TextBasedChannel.js:195:15)
+    at async EventUtils.sendPlayerMessage (file:///home/container/src/utils/EventUtils.js:14:11)
+    at async Object.execute (file:///home/container/src/events/player/trackStart.js?t=1761445274188:53:19)
+[2025-11-01T22:33:06.042Z] [ERROR] [EventUtils] Failed to send player message:
+Stack trace: DiscordAPIError[50013]: Missing Permissions
+    at handleErrors (file:///home/container/node_modules/@discordjs/rest/dist/index.mjs:721:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SequentialHandler.runRequest (file:///home/container/node_modules/@discordjs/rest/dist/index.mjs:1122:23)
+    at async SequentialHandler.queueRequest (file:///home/container/node_modules/@discordjs/rest/dist/index.mjs:953:14)
+    at async _REST.request (file:///home/container/node_modules/@discordjs/rest/dist/index.mjs:1266:22)
+    at async TextChannel.send (/home/container/node_modules/discord.js/src/structures/interfaces/TextBasedChannel.js:195:15)
+    at async EventUtils.sendPlayerMessage (file:///home/container/src/utils/EventUtils.js:14:11)
+    at async Object.execute (file:///home/container/src/events/player/trackStart.js?t=1761445274188:53:19)
+[2025-11-02T11:03:36.012Z] [ERROR] [EventUtils] Failed to send player message:
+Stack trace: DiscordAPIError[50013]: Missing Permissions
+    at handleErrors (file:///home/container/node_modules/@discordjs/rest/dist/index.mjs:721:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SequentialHandler.runRequest (file:///home/container/node_modules/@discordjs/rest/dist/index.mjs:1122:23)
+    at async SequentialHandler.queueRequest (file:///home/container/node_modules/@discordjs/rest/dist/index.mjs:953:14)
+    at async _REST.request (file:///home/container/node_modules/@discordjs/rest/dist/index.mjs:1266:22)
+    at async TextChannel.send (/home/container/node_modules/discord.js/src/structures/interfaces/TextBasedChannel.js:195:15)
+    at async EventUtils.sendPlayerMessage (file:///home/container/src/utils/EventUtils.js:14:11)
+    at async Object.execute (file:///home/container/src/events/player/trackStart.js?t=1761445274188:53:19)
+[2025-11-03T16:12:02.332Z] [ERROR] [MessageCreate] Error executing command 'banner' for user 1422289461751976078
+Stack trace: DiscordAPIError[50013]: Missing Permissions
+    at handleErrors (file:///home/container/node_modules/@discordjs/rest/dist/index.mjs:721:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async SequentialHandler.runRequest (file:///home/container/node_modules/@discordjs/rest/dist/index.mjs:1122:23)
+    at async SequentialHandler.queueRequest (file:///home/container/node_modules/@discordjs/rest/dist/index.mjs:953:14)
+    at async _REST.request (file:///home/container/node_modules/@discordjs/rest/dist/index.mjs:1266:22)
+    at async TextChannel.send (/home/container/node_modules/discord.js/src/structures/interfaces/TextBasedChannel.js:195:15)
+    at async BannerCommand.execute (file:///home/container/src/commands/info/banner.js?v=1761839488342:52:3)
+    at async Object.execute (file:///home/container/src/events/discord/guild/Prefixcmd.js?t=1761445273914:462:7)
